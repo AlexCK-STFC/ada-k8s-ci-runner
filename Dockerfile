@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-RUN pip install --no-cache-dir packaging ansible-core
+RUN pip install --no-cache-dir packaging ansible-core jsonschema
 
 COPY requirements.yml /tmp/requirements.yml
 RUN if [ -f /tmp/requirements.yml ]; then \
