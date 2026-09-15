@@ -1,0 +1,17 @@
+---
+collections:
+  - name: openstack.cloud
+    version: ">=2.4.0"
+
+  - name: kubernetes.core
+    version: ">=6.4.0"
+
+  - name: community.general
+    version: ">=13.0.0"
+
+  - name: ansible.posix
+    version: ">=2.2.0"
+
+  - name: ansible.mariadb
+
+  - name: ansible.utils
